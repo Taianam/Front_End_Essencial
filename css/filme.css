@@ -1,0 +1,122 @@
+iframe {
+    width: 100%;
+    height: 80%;
+}
+.conteudo {
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    color: white;
+}
+
+.col-7 {
+    padding-top: 2%;
+    background-color: #181818;
+    border-radius: 10px;
+    width: auto;
+    height: 500px;
+}
+
+.col-4 {
+    padding-top: 2%;
+    margin-left: 4%;
+    background-color: #181818;
+    border-radius: 10px;
+    width: auto;
+    height: 500px;
+}
+
+.banner-topo {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0%;
+    left: 4%;
+}
+
+.nota {
+    font-size: 23px;
+}
+
+.notapequena {
+    font-size: 15px;
+    color: grey;
+}
+
+.poster {
+    width: 42%;
+}
+.conteudo-2{
+    font-size: 105%;
+    line-height: 170%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 2%;
+    text-align: justify;
+    text-indent: 2%;
+    background-color: #181818;
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    height: 30%;
+}
+
+#titulo {
+    color: white;
+    font-size: 60px;
+    text-align: left;
+}
+
+#sombra {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 300px;
+}
+
+#descricao {
+    font-size: 20px;
+    width: 600px;
+}
+
+#detalhes {
+    color: gray;
+}
+
+#classificacao {
+    width: 20px;
+}
+
+#temporadas {
+    font-size: 20px;
+}
+
+#imdb {
+    font-size: 15px;
+    line-height: 5%;
+}
+
+#posterNome {
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+#netflix {
+    margin-bottom: 0%;
+}
+
+#trailer {
+    font-size: 200%;
+}
+

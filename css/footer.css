@@ -1,0 +1,36 @@
+footer{
+    background-color: #181818;
+}
+.p-3{
+    background-color:black;
+}
+
+.conteinerFooter{
+    height: 140px;
+    display: flex;
+}
+
+.contatos, .redes{
+    width: 100%;
+    padding-left: 15%;
+    line-height: 30px;
+}
+
+.tituloFooter{
+    font-size: 20px;
+    padding: 10px 0 5px 0;
+}
+
+.icone-footer, .icone-footer-rede{
+    margin-right: 1%;
+    color: #e07412;
+}
+
+.icone-footer-rede{
+    margin-right: 2%;
+    font-size: 28px;
+}
+   
+.iccone{
+    display: flex;
+}

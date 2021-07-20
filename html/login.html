@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>What the film</title>
+        <link rel="shortcut icon" type="image/png" href="../img/icones/favicon.png"/>
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="../css/global.css">
+    </head>
+    <body> 
+        <img src="../img/banner/fundoLogin.jpg" alt="fundo">
+        <form class="box">
+            <img src="../img/logo.png" alt="logo" class="logo">
+            <div id="alert" class="hidden"> 
+                Email ou senha inválido
+            </div>
+            <input id="email" type="email" name="" placeholder="Digite seu email" required>
+            <input id="senha" type="password" name="" placeholder="Digite sua senha" required>
+            <a href="../html/home.html">
+                Novo por aqui? Cadastre-se agora!.
+            </a>
+            <button type="button" onclick="autentificar()"> 
+                Login 
+            </button>
+        </form>
+
+        <script src="../js/login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+Documentação dos códigos utilizados de terceiros.
+
+Menu =https://bootsnipp.com/snippets/7np2j
+Carrossel=https://raddy.co.uk/blog/better-netflix-carousel-using-swiperjs/

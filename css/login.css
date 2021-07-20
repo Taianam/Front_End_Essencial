@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background:#34495e;
+    overflow: hidden;
+    box-shadow: 20px red;
+
+    background-image: url("./img/movie-918655.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+a{
+    color: white;
+    font-size: 70%;
+}
+
+.logo{
+    width: 30%;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919ee;
+    text-align: center;
+    /* transition: 1s; */
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-delay: 0,2ms;
+    animation-fill-mode: backwards;
+}
+
+@keyframes example {
+    from {top: 0px;}
+    to {top: 393,1px;}
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+.box input[type = "email"],.box input[type ="Password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f39034;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+.box input[type = "email"]:focus,.box input[type ="Password"]:focus{
+    width: 280px;
+    border-color: #e07412;
+}
+
+.box button[type = "button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #e07412;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor:pointer;
+    
+}
+
+.box button[type = "button"]:hover{
+    background-color:#f39034;
+    color: #333;
+}
+
+#alert{
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+#invalido{
+    border: 2px solid #ff0000;
+}

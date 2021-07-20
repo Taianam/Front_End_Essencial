@@ -1,0 +1,13 @@
+#banner{
+margin-top: 3%;
+ width: 100%;
+ height: 500px;
+}
+
+.subtitulo{
+    padding-bottom: 1%;
+    text-align: center;
+    margin-top:1%;
+    background-color: #181818;
+    color: #e07412;
+}
